@@ -1,3 +1,7 @@
+<?php slot('title') ?>
+  <?php echo sprintf('%s is looking for a %s', $job->getCompany(), $job->getPosition()) ?>
+<?php end_slot() ?>
+
 <?php use_stylesheet('job.css') ?>
 <?php use_helper('Text') ?>
 
