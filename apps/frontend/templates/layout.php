@@ -60,9 +60,10 @@
       <div id="footer">
         <div class="content">
           <span class="symfony">
-            <img src="/legacy/images/jobeet-mini.png" />
+
+            <img src="<?php echo public_path("/legacy/images/jobeet-mini.png"); ?>" />
             powered by <a href="/">
-            <img src="/legacy/images/symfony.gif" alt="symfony framework" />
+            <img src="<?php echo public_path("/legacy/images/symfony.gif"); ?>" alt="symfony framework" />
             </a>
           </span>
           <ul>
