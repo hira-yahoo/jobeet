@@ -1,2 +1,4 @@
 log/
 cache/
+lib/model/map
+lib/model/om
